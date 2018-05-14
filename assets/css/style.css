@@ -12,10 +12,13 @@ header {
     
 }
 
+.navbar-brand.mb-0.h1 {
+    color: white;
+}
+
 #logobox {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    /* width: max-content; */
-    padding: 21px;
+    padding: 30px;
     background-color: #4aaaa5;
     float: left;
 }
@@ -29,9 +32,9 @@ h1#name {
 }
 
 a:link, a:visited {
-    background-color: white;
+    background-color: ghostwhite;
     color: #777777;
-    padding: 20px 20px;
+    padding: 30px 30px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
@@ -43,25 +46,25 @@ a:hover, a:active {
     color: white;
 }
 
-.nav {
-    text-align: right;
-    line-height: 3.5em;
-    
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-#navbar {
+.navbar.navbar-expand-md.navbar-light.bg-light {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h2 {
+#navbar {
+    max-width: 960px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+#about {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-weight: bold;
@@ -80,7 +83,7 @@ h2 {
     
 }
 
-p {
+p, .col-md-3.control-label {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    color: #777777;
 }
