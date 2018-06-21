@@ -8,8 +8,6 @@ header {
     background: white;
     top: 0;
     position: relative;
-    
-    
 }
 
 .navbar-brand.mb-0.h1 {
@@ -141,3 +139,9 @@ footer {
     position: relative;
 }
 
+h4 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
